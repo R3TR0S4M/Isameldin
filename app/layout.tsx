@@ -4,7 +4,7 @@ import './theme.css';
 
 export const metadata: Metadata = {
   title: 'Isameldin Ahmed | Mechatronics Engineering Graduate',
-  description: 'Portfolio of Isameldin Ahmed, a mechatronics engineering graduate working across mechanical design, robotics, automation, embedded systems, and control.',
+  description: 'My portfolio as a mechatronics engineering graduate working across mechanical design, robotics, automation, embedded systems, and control.',
 };
 
 export default function RootLayout({
