@@ -61,6 +61,7 @@ body { overflow-x: hidden; }
 .placeholder-visual.has-image { padding: 0; background: var(--soft); }
 .placeholder-visual.has-image::after { background: linear-gradient(180deg, rgba(23, 23, 23, .02) 35%, rgba(23, 23, 23, .72) 100%); }
 .placeholder-visual.has-image > img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.placeholder-visual.image-fit-contain > img { object-fit: contain; padding: 14px; }
 .placeholder-visual.has-image .visual-readout { left: 22px; }
 .placeholder-visual.has-image .visual-caption { left: 22px; bottom: 20px; }
 .placeholder-large { min-height: 430px; }
