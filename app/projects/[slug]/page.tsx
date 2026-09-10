@@ -1,7 +1,10 @@
-import Link from 'next/link';
 import { Check, FileText, Play, ShieldCheck, ArrowUpRight } from 'lucide-react';
+import type { AnchorHTMLAttributes, ReactNode } from 'react';
 import { BackLink, Footer, PhotoSlot, PlaceholderVisual, SiteHeader } from '../../components';
 import { fypSections, gdpSections, projects } from '../../portfolio-data';
+
+type InternalLinkProps = AnchorHTMLAttributes<HTMLAnchorElement> & { href: string; children?: ReactNode };
+function Link({ children, ...props }: InternalLinkProps) { return <a {...props}>{children}</a>; }
 
 export function generateStaticParams() { return projects.slice(0, 2).map(project => ({ slug: project.slug })); }
 

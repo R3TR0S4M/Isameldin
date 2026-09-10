@@ -1,9 +1,11 @@
 'use client';
 
-import Link from 'next/link';
 import { ArrowLeft, ArrowUpRight, ExternalLink, Menu, X } from 'lucide-react';
-import { useState } from 'react';
+import { useState, type AnchorHTMLAttributes, type ReactNode } from 'react';
 import { education, experience, profile, projects, type Project } from './portfolio-data';
+
+type InternalLinkProps = AnchorHTMLAttributes<HTMLAnchorElement> & { href: string; children?: ReactNode };
+function Link({ children, ...props }: InternalLinkProps) { return <a {...props}>{children}</a>; }
 
 export function Mark({ small = false }: { small?: boolean }) { return <span className={small ? 'mark mark-small' : 'mark'} aria-hidden="true"><span /><span /><span /></span>; }
 
