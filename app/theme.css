@@ -35,9 +35,6 @@ body { overflow-x: hidden; }
 .hero-visual { width: 100%; max-width: 480px; justify-self: end; }
 .headshot-frame { overflow: hidden; border: 1px solid var(--ink); border-radius: var(--radius); background: var(--soft); }
 .headshot-frame img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; object-position: 61% center; }
-.hero-supporting-graphic { position: relative; margin-top: 16px; overflow: hidden; border: 1px solid var(--line); border-radius: var(--radius); background: var(--soft); }
-.hero-supporting-graphic img { width: 100%; aspect-ratio: 2.15 / 1; object-fit: cover; opacity: .88; }
-.hero-supporting-graphic span { position: absolute; right: 13px; bottom: 11px; color: var(--ink); font-family: var(--mono); font-size: 9px; letter-spacing: .08em; text-transform: uppercase; }
 .headshot-corner, .headshot-label, .hero-visual-note, .hero-meta, .hero-gridline { display: none; }
 
 .section { padding: 110px 0; border-top: 1px solid var(--line); }
@@ -177,9 +174,7 @@ body { overflow-x: hidden; }
   .project-card:nth-child(2), .home-experience-card:nth-child(2), .education-preview-card:nth-child(2) { animation-delay: .1s; }
   .experience-entry:nth-child(2), .education-detail:nth-child(2) { animation-delay: .1s; }
   .experience-entry:nth-child(3), .education-detail:nth-child(3) { animation-delay: .18s; }
-  .hero-supporting-graphic img { animation: graphic-drift 12s ease-in-out infinite alternate; }
   @keyframes fade-up { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
-  @keyframes graphic-drift { from { transform: scale(1); } to { transform: scale(1.04); } }
 }
 
 @media (max-width: 900px) {
@@ -208,8 +203,6 @@ body { overflow-x: hidden; }
   .hero h1 { font-size: clamp(4rem, 19vw, 6.6rem); }
   .hero-actions .button { width: 100%; }
   .hero-visual { max-width: none; }
-  .hero-supporting-graphic { margin-top: 12px; }
-  .hero-supporting-graphic img { aspect-ratio: 1.85 / 1; }
   .section { padding: 78px 0; }
   .section-intro, .featured-grid, .home-experience-list, .education-preview-grid, .page-hero, .case-hero, .experience-photo-band, .education-record { display: block; }
   .section-intro h2 { margin-bottom: 17px; font-size: 3rem; }
