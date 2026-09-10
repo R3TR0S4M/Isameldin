@@ -58,6 +58,11 @@ body { overflow-x: hidden; }
 
 .placeholder-visual { min-height: 300px; position: relative; display: flex; flex-direction: column; justify-content: end; padding: 22px; overflow: hidden; border: 1px solid var(--line); border-radius: var(--radius); background: var(--soft); }
 .placeholder-visual::after { content: ''; position: absolute; inset: 0; background: linear-gradient(135deg, transparent 0 49.5%, rgba(233, 103, 47, .12) 50%, transparent 50.5%); pointer-events: none; }
+.placeholder-visual.has-image { padding: 0; background: var(--soft); }
+.placeholder-visual.has-image::after { background: linear-gradient(180deg, rgba(23, 23, 23, .02) 35%, rgba(23, 23, 23, .72) 100%); }
+.placeholder-visual.has-image > img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.placeholder-visual.has-image .visual-readout { left: 22px; }
+.placeholder-visual.has-image .visual-caption { left: 22px; bottom: 20px; }
 .placeholder-large { min-height: 430px; }
 .visual-grid, .visual-orbit, .visual-crosshair { display: none; }
 .visual-readout, .visual-caption { position: relative; z-index: 1; display: grid; gap: 5px; font-size: 10px; }
