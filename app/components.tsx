@@ -1,10 +1,11 @@
 'use client';
 
 import { ArrowLeft, ArrowUpRight, ExternalLink, Menu, X } from 'lucide-react';
-import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { useState } from 'react';
+import { useState, type ComponentProps } from 'react';
 import { education, experience, profile, projects, type Project } from './portfolio-data';
+
+function Link(props: ComponentProps<'a'>) { return <a {...props} />; }
 
 export function Mark({ small = false }: { small?: boolean }) { return <span className={small ? 'mark mark-small' : 'mark'} aria-hidden="true"><span /><span /><span /></span>; }
 
