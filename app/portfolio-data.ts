@@ -216,7 +216,9 @@ export const experience: Experience[] = [
     { image: '/images/experience/technical-assistant-lidar-cad.jpg', code: 'EXP-TECH-04', title: 'Reviewing a LiDAR-frame CAD model', label: 'SOLIDWORKS / CAD REVIEW', description: 'I reviewed a LiDAR-frame component in SolidWorks, connecting the digital model to the practical mounting and fabrication requirements of an engineering system.' },
     { image: '/images/experience/technical-assistant-fabrication.jpg', code: 'EXP-TECH-05', title: 'Supporting workshop fabrication', label: 'WORKSHOP / FABRICATION', description: 'I worked around the fabrication area and its cutting, welding, and extraction equipment while supporting practical workshop preparation and engineering builds.' },
   ] },
-  { slug: 'imeche-head-of-public-relations', period: 'AUG 2024 - MAY 2026', role: 'Head of Public Relations', organization: 'Institution of Mechanical Engineers, APU Student Section', detail: 'I led communications, built industry partnerships, invited speakers, spoke at events, and helped organise more than 20 workshops, competitions, and events for the student section.', tools: 'Public Relations / Industry Engagement / Event Management / Communications', image: '/images/experience/imeche-team.jpg' },
+  { slug: 'imeche-head-of-public-relations', period: 'AUG 2024 - MAY 2026', role: 'Head of Public Relations', organization: 'Institution of Mechanical Engineers, APU Student Section', detail: 'I led communications, built industry partnerships, invited speakers, spoke at events, and helped organise more than 20 workshops, competitions, and events for the student section.', tools: 'Public Relations / Industry Engagement / Event Management / Communications', image: '/images/experience/imeche-team.jpg', galleryItems: [
+    { image: '/images/experience/imeche-student-section.jpg', code: 'EXP-IMECH-01', title: 'Planning with the student section', label: 'IMECHE / COLLABORATION', description: 'I worked with the IMechE student section to coordinate ideas, responsibilities, and activities that connected engineering students with the wider professional community.' },
+  ] },
 ];
 
 export const education: EducationRecord[] = [
@@ -227,6 +229,7 @@ export const education: EducationRecord[] = [
     { image: '/images/education/apu-classroom-session.jpg', code: 'EDU-APU-04', title: 'Learning through technical sessions', label: 'ACADEMIC / PRESENTATION', description: 'I developed my technical understanding through structured teaching, demonstrations, group work, and presentations throughout the degree.' },
     { image: '/images/education/apu-robotics-demonstration.jpg', code: 'EDU-APU-05', title: 'Robotics in the learning environment', label: 'ROBOTICS / PRACTICAL LEARNING', description: 'I connected classroom engineering principles to working robotic systems and demonstrations, reinforcing the practical side of my mechatronics education.' },
     { image: '/images/education/apu-logo.jpg', code: 'EDU-APU-06', title: 'Asia Pacific University', label: 'INSTITUTION / DEGREE', description: 'I completed my Bachelor of Mechatronic Engineering with Honours at Asia Pacific University through the dual DMU Degree Programme.' },
+    { image: '/images/education/apu-agv-wiring.jpg', code: 'EDU-APU-07', title: 'Wiring an autonomous vehicle prototype', label: 'EMBEDDED SYSTEMS / LAB WORK', description: 'I wired and tested the AGV electronics, including the controller, breadboards, sensors, motor hardware, emergency stop, and connected power components.' },
   ] },
   { period: 'JAN 2020 - NOV 2021', qualification: 'A Levels', institution: 'LICEF School, Lusaka, Zambia', detail: 'I achieved A in Physics, B in Chemistry, and B in Mathematics, and I graduated as high school valedictorian.' },
 ];
