@@ -218,6 +218,7 @@ export const experience: Experience[] = [
   ] },
   { slug: 'imeche-head-of-public-relations', period: 'AUG 2024 - MAY 2026', role: 'Head of Public Relations', organization: 'Institution of Mechanical Engineers, APU Student Section', detail: 'I led communications, built industry partnerships, invited speakers, spoke at events, and helped organise more than 20 workshops, competitions, and events for the student section.', tools: 'Public Relations / Industry Engagement / Event Management / Communications', image: '/images/experience/imeche-team.jpg', galleryItems: [
     { image: '/images/experience/imeche-student-section.jpg', code: 'EXP-IMECH-01', title: 'Planning with the student section', label: 'IMECHE / COLLABORATION', description: 'I worked with the IMechE student section to coordinate ideas, responsibilities, and activities that connected engineering students with the wider professional community.' },
+    { image: '/images/experience/imeche-industry-event.jpg', code: 'EXP-IMECH-02', title: 'Connecting students with industry', label: 'IMECHE / INDUSTRY ENGAGEMENT', description: 'I helped bring the IMechE student section together with industry and academic representatives, supporting the professional relationships behind our events and activities.' },
   ] },
 ];
 
