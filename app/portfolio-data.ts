@@ -216,7 +216,7 @@ export const experience: Experience[] = [
     { image: '/images/experience/technical-assistant-lidar-cad.jpg', code: 'EXP-TECH-04', title: 'Reviewing a LiDAR-frame CAD model', label: 'SOLIDWORKS / CAD REVIEW', description: 'I reviewed a LiDAR-frame component in SolidWorks, connecting the digital model to the practical mounting and fabrication requirements of an engineering system.' },
     { image: '/images/experience/technical-assistant-fabrication.jpg', code: 'EXP-TECH-05', title: 'Supporting workshop fabrication', label: 'WORKSHOP / FABRICATION', description: 'I worked around the fabrication area and its cutting, welding, and extraction equipment while supporting practical workshop preparation and engineering builds.' },
   ] },
-  { slug: 'imeche-head-of-public-relations', period: 'AUG 2024 - MAY 2026', role: 'Head of Public Relations', organization: 'Institution of Mechanical Engineers, APU Student Section', detail: 'I led communications, built industry partnerships, invited speakers, spoke at events, and helped organise more than 20 workshops, competitions, and events for the student section.', tools: 'Public Relations / Industry Engagement / Event Management / Communications' },
+  { slug: 'imeche-head-of-public-relations', period: 'AUG 2024 - MAY 2026', role: 'Head of Public Relations', organization: 'Institution of Mechanical Engineers, APU Student Section', detail: 'I led communications, built industry partnerships, invited speakers, spoke at events, and helped organise more than 20 workshops, competitions, and events for the student section.', tools: 'Public Relations / Industry Engagement / Event Management / Communications', image: '/images/experience/imeche-team.jpg' },
 ];
 
 export const education: EducationRecord[] = [
