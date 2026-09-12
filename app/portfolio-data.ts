@@ -46,8 +46,8 @@ export const profile = {
   email: 'eldeenisam@gmail.com',
   phone: '+60 11-3900 9572',
   linkedin: 'https://linkedin.com/in/isameldin',
-  github: 'https://github.com/',
-  website: 'https://isameldin.netlify.app',
+  github: 'https://github.com/R3TR0S4M',
+  website: 'https://isameldin.eldeenisam.workers.dev',
   tagline: 'I build, automate, and improve the things around me.',
   intro: 'I am a passionate mechatronics engineering graduate with experience in mechanical design and IoT systems development, plus hands-on academic work in robotics, automation, embedded systems, and control. I enjoy turning a practical problem into a system that I can test, understand, and improve.',
 };
@@ -165,7 +165,7 @@ export const projects: Project[] = [
     { image: '/images/projects/submarine/electrical-box.png', code: 'CAD-13', title: 'Ventilated electrical box', label: 'SOLIDWORKS / SHEET METAL', description: 'I designed the electrical box with side louvers, a lower vent, countersunk details, and a hinged enclosure for safer component access and cooling.' },
     { image: '/images/projects/submarine/submarine-assembly.png', code: 'CAD-14', title: 'Electrical box assembly', label: 'SOLIDWORKS / ASSEMBLY', description: 'I used the assembly view to check the relationship between the enclosure, vents, hinges, and removable door.' },
   ] },
-  { slug: 'vacuum-pick-and-place', code: 'PLC-12', title: 'Electro-Pneumatic Pick and Place', label: 'OMRON PLC / AUTOMATION', summary: 'I worked on an electro-pneumatic vacuum pick-and-place device controlled with an Omron PLC.', description: 'I worked on an electro-pneumatic vacuum pick-and-place device using an Omron PLC. I can add the pneumatic schematic, sequence logic, and machine photos later.', year: 'Academic experience', status: 'Documentation slot', category: 'Automation', tags: ['Omron PLC', 'Pneumatics', 'Pick and Place'], accent: 'khaki' },
+  { slug: 'vacuum-pick-and-place', code: 'PLC-12', title: 'Electro-Pneumatic Pick and Place', label: 'OMRON PLC / AUTOMATION', summary: 'I worked on an electro-pneumatic vacuum pick-and-place device controlled with an Omron PLC.', description: 'I worked on an electro-pneumatic vacuum pick-and-place device using an Omron PLC. Supporting photos and sequence evidence will be added when I have the project material ready.', year: 'Academic experience', status: 'Project record in progress', category: 'Automation', tags: ['Omron PLC', 'Pneumatics', 'Pick and Place'], accent: 'khaki' },
   { slug: 'digital-circuits', code: 'ELEC-13', title: 'ALU and 7-Segment Display Circuit', label: 'DIGITAL LOGIC / CIRCUIT DESIGN', summary: 'I designed an ALU-style digital circuit that simplifies Boolean logic and displays calculated values across four 7-segment displays.', description: 'I designed and simulated a digital logic system around an ALU task. I used truth tables, Karnaugh maps, Boolean expressions, logic gates, BCD-to-7-segment conversion, and a control unit to switch between group members’ circuit outputs.', year: '2023', status: 'Completed academic project', category: 'Electronics', tags: ['Logic Gates', 'Karnaugh Maps', '7-Segment', 'Digital Design'], accent: 'red', image: '/images/projects/digital/alu-cover.png', caseSections: [
     ['ALU design brief', 'I translated binary inputs and the assigned equations into predictable digital outputs. Because the combined group design required values to be displayed clearly, I planned the circuit around four BCD-to-7-segment converters.'],
     ['Logic implementation', 'I simplified the Boolean expressions with truth tables and Karnaugh maps, then implemented the resulting logic with gates. I also considered a multiplexer or demultiplexer-based control approach so the group circuits could share the display path.'],
@@ -193,17 +193,13 @@ export const projects: Project[] = [
     { image: '/images/projects/matlab/matlab-dual-opamp.png', code: 'MATLAB-17', title: 'Multi-mode simulation', label: 'MATLAB / SIMULATION', description: 'I used the interface to test more than one op-amp arrangement and compare the calculated response with the plotted signal.' },
     { image: '/images/projects/matlab/matlab-export-dialog.png', code: 'MATLAB-18', title: 'Protected data export', label: 'MATLAB / USER WORKFLOW', description: 'I added an export workflow that asks for a file name and password before saving the simulator data.' },
   ] },
-  { slug: 'soft-drink-production', code: 'LABVIEW-14', title: 'Soft Drink Production System', label: 'LABVIEW / PROCESS', summary: 'I studied an automated soft drink production process using LabVIEW.', description: 'I designed a soft drink production system using LabVIEW. I can add the process flow, HMI screenshots, and control logic later.', year: 'Academic experience', status: 'Documentation slot', category: 'Programming', tags: ['LabVIEW', 'Process Control', 'HMI'], accent: 'olive' },
+  { slug: 'soft-drink-production', code: 'LABVIEW-14', title: 'Soft Drink Production System', label: 'LABVIEW / PROCESS', summary: 'I studied an automated soft drink production process using LabVIEW.', description: 'I designed a soft drink production system using LabVIEW. Supporting process-flow visuals and HMI evidence will be added when I have the project material ready.', year: 'Academic experience', status: 'Project record in progress', category: 'Programming', tags: ['LabVIEW', 'Process Control', 'HMI'], accent: 'olive' },
 ];
 
 export const experience: Experience[] = [
   { slug: 'mechatronics-engineering-internship', period: 'MAR - SEP 2026', role: 'Mechatronics Engineering Intern', organization: 'Ambani Consortium Group (M) Sdn. Bhd.', detail: 'I designed brackets and technical drawings for generator housings, tested an LTE module for remote generator monitoring and control, applied DFM and Poka-Yoke principles, and supported technical coordination and client engagement for the 2025 Invest Zambia International Conference.', tools: 'SolidWorks / LTE / IoT Monitoring / DFM / Poka-Yoke / ISO 9001, 14001, 45001', image: '/images/experience/internship-team.jpg' },
   { slug: 'apu-senior-engineering-technical-assistant', period: 'DEC 2022 - JUL 2026', role: 'Senior Engineering Technical Assistant', organization: 'Asia Pacific University', progression: 'Promoted from Engineering Technical Assistant in December 2024', detail: 'I progressed from maintaining laboratory equipment to leading a team of lab assistants while supporting 20 to 50 students per semester across engineering lab sessions. I guided students with 3D printers, oscilloscopes, robotic arms, PLC units, and digital and analogue signal training kits.', tools: '3D Printing / Oscilloscopes / Robotic Arms / PLCs / Sensor Calibration / Team Leadership' },
   { slug: 'imeche-head-of-public-relations', period: 'AUG 2024 - MAY 2026', role: 'Head of Public Relations', organization: 'Institution of Mechanical Engineers, APU Student Section', detail: 'I led communications, built industry partnerships, invited speakers, spoke at events, and helped organise more than 20 workshops, competitions, and events for the student section.', tools: 'Public Relations / Industry Engagement / Event Management / Communications' },
-];
-
-export const volunteering = [
-  { period: 'AUG 2024 - MAY 2026', role: 'Head of Public Relations', organization: 'Institution of Mechanical Engineers, APU Student Section', detail: 'I led communications, built industry partnerships, invited speakers, spoke at events, and helped organize more than 20 workshops, competitions, and events.' },
 ];
 
 export const education = [
