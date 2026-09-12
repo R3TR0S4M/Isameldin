@@ -4,10 +4,8 @@ body { overflow-x: hidden; }
 .site-header { position: sticky; top: 0; z-index: 10; border-bottom: 1px solid var(--line); background: rgba(243, 243, 240, .94); backdrop-filter: blur(10px); }
 .site-header-inner { width: min(100% - 48px, 1180px); min-height: 70px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; }
 .wordmark { display: inline-flex; align-items: center; gap: 9px; font-size: 14px; font-weight: 700; letter-spacing: -.02em; }
-.mark { width: 22px; height: 22px; display: inline-grid; grid-template-columns: repeat(3, 1fr); gap: 2px; transform: skewY(-18deg); }
-.mark span { background: var(--accent); }
-.mark span:nth-child(2) { margin-top: 5px; background: var(--ink); }
-.mark span:nth-child(3) { margin-top: 10px; background: #989892; }
+.mark { width: 22px; height: 22px; display: inline-block; overflow: hidden; border-radius: 4px; background: #080808; }
+.mark img { display: block; width: 100%; height: 100%; object-fit: cover; }
 .mark-small { width: 17px; height: 17px; }
 .desktop-nav { display: flex; align-items: center; gap: 24px; color: var(--muted); font-size: 13px; }
 .desktop-nav a, .footer-links a { transition: color .2s ease; }

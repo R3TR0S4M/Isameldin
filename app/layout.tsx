@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     title: 'Isameldin Ahmed | Mechatronics Engineering Graduate',
     description: 'Engineering projects and experience across robotics, automation, embedded systems, electronics, and mechanical design.',
   },
-  icons: { icon: '/favicon.svg' },
+  icons: { icon: '/images/isameldin-logo.jpg' },
 };
 
 export default function RootLayout({

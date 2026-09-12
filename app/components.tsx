@@ -7,7 +7,7 @@ import { education, experience, profile, projects, type Project } from './portfo
 
 function Link(props: ComponentProps<'a'>) { return <a {...props} />; }
 
-export function Mark({ small = false }: { small?: boolean }) { return <span className={small ? 'mark mark-small' : 'mark'} aria-hidden="true"><span /><span /><span /></span>; }
+export function Mark({ small = false }: { small?: boolean }) { return <span className={small ? 'mark mark-small' : 'mark'} aria-hidden="true"><img src="/images/isameldin-logo.jpg" alt="" /></span>; }
 
 export function SiteHeader() {
   const [open, setOpen] = useState(false);
