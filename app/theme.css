@@ -369,6 +369,38 @@ body { overflow-x: hidden; }
   .not-found h1 { font-size: clamp(4rem, 18vw, 6.5rem); }
 }
 
+/* Supplied experience and education images stay fully visible, with their captions below. */
+.placeholder-visual.clean-image {
+  min-height: 0 !important;
+  padding: 0;
+  display: block;
+  overflow: visible;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+}
+.placeholder-visual.clean-image::after { display: none; }
+.placeholder-visual.clean-image > img {
+  position: relative;
+  inset: auto;
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+.placeholder-visual.clean-image .visual-readout { display: none; }
+.placeholder-visual.clean-image .visual-caption {
+  position: static;
+  display: grid;
+  padding-top: 13px;
+  color: var(--muted);
+}
+.education-preview-record-label {
+  align-self: stretch;
+  padding-top: 14px;
+  border-top: 1px solid var(--line);
+}
+
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
