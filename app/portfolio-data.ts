@@ -260,6 +260,10 @@ export const skills = [
   { label: 'Simulation and tools', items: 'Simulink, ABB RobotStudio, LabVIEW, Automation Studio, CX Programmer, LTspice, Multisim, Altair' },
 ];
 export const awards = ['High School Valedictorian, LICEF Secondary School, Lusaka, Zambia', 'Al-Khayyam Mathematics Award, LICEF Secondary School, Lusaka, Zambia'];
+export const leadership = [
+  { title: 'Head of Public Relations', organization: 'IMeche APU Student Section', detail: 'I led communications, industry engagement, and event promotion while helping organise more than 20 workshops, competitions, and talks.' },
+  { title: 'Senior Engineering Technical Assistant', organization: 'Asia Pacific University', detail: 'I progressed from Engineering Technical Assistant to Senior Engineering Technical Assistant, leading lab assistants and supporting practical sessions for 20 to 50 students per semester.' },
+];
 
 export const fypSections = [
   ['Project overview', 'I adapted the open-source HACKberry prosthetic arm design and modified it to add EMG muscle-signal control for hand movement. My build combines an ESP32, sensor feedback, haptic vibration, safety responses, and an online dashboard.'],
