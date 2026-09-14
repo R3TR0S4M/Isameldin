@@ -28,6 +28,13 @@ export type GalleryItem = {
   description: string;
 };
 
+export type PersonalProject = {
+  status: 'IN PROGRESS' | 'PLANNED';
+  title: string;
+  summary: string;
+  focus: string;
+};
+
 export type Experience = {
   slug: string;
   period: string;
@@ -210,6 +217,11 @@ export const projects: Project[] = [
     { image: '/images/projects/matlab/matlab-export-dialog.png', code: 'MATLAB-18', title: 'Protected data export', label: 'MATLAB / USER WORKFLOW', description: 'I added an export workflow that asks for a file name and password before saving the simulator data.' },
   ] },
   { slug: 'soft-drink-production', code: 'LABVIEW-14', title: 'Soft Drink Production System', label: 'LABVIEW / PROCESS', summary: 'I studied an automated soft drink production process using LabVIEW.', description: 'I designed a soft drink production system using LabVIEW. Supporting process-flow visuals and HMI evidence will be added when I have the project material ready.', year: 'Academic experience', status: 'Project record in progress', category: 'Programming', tags: ['LabVIEW', 'Process Control', 'HMI'], accent: 'olive' },
+];
+
+export const personalProjects: PersonalProject[] = [
+  { status: 'IN PROGRESS', title: 'Personal builds', summary: 'I am using this space to document the engineering projects I am developing outside formal coursework, from the first idea through testing and refinement.', focus: 'PROTOTYPE / BUILD LOG' },
+  { status: 'PLANNED', title: 'Upcoming prototypes', summary: 'I will add the personal projects I plan to design, fabricate, and test next, keeping the roadmap visible as each idea becomes a working system.', focus: 'ROADMAP / NEXT BUILD' },
 ];
 
 export const experience: Experience[] = [
